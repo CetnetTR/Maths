@@ -1,0 +1,88 @@
+law_content = """# The Law of Fractional Reference
+**Author:** Prajna Nanda (邱进德)  
+**Date:** 2025-10-04  
+**Version:** 1.0  
+**License:** CC BY-NC-SA 4.0  
+
+---
+
+## **Abstract**
+The **Law of Fractional Reference** describes how proportional operations—such as fractions or ratios—generate *new self-consistent reference frames* rather than reducing an existing whole.  
+Each transformation preserves internal structure but redefines the observer’s scale of measurement.  
+This law reframes ordinary arithmetic as a model of recursive reference, bridging mathematics, physics, and cognitive perception.
+
+---
+
+## **Core Statement**
+> *Every proportional transformation instantiates a new reference frame that preserves internal structure while redefining perceived magnitude.*
+
+Symbolically:
+
+Iₙ = fₙ × Iₙ₋₁,   n ∈ ℕ
+
+where  
+- I₀ = original whole,  
+- fₙ = fractional transformation at step n,  
+- Iₙ = new instance, a complete world under its own reference.  
+
+Each Iₙ is internally consistent and locally complete; comparison across instances requires restoring them to a common reference.
+
+---
+
+## **Interpretation**
+1. **Structural Invariance** – Internal ratios within each instance remain identical regardless of scale.  
+2. **Reference Reset** – The observer’s baseline of “1” resets with every transformation, producing the psychological sensation of “loss” (the –1 feeling).  
+3. **Recursive Universes** – Successive fractions form a hierarchy of self-similar yet independent domains:  
+   I₂ = f₂(f₁(I₀)) = f₂ × f₁ × I₀
+
+---
+
+## **Implications**
+| Domain | Application |
+|---------|--------------|
+| **Mathematics / Education** | Provides an intuitive explanation for fractional multiplication as *scaling within a new world*, aiding conceptual learning. |
+| **Physics (Analogy)** | Mirrors frame-invariance in relativity—laws remain constant while the measurement frame changes. |
+| **AI / Computation** | Models layer-wise normalization: each layer re-scales data yet maintains relational structure. |
+| **Cognitive Science** | Describes mental re-anchoring when proportional contexts shift, a foundation for understanding conceptual scaling. |
+
+---
+
+## **Comparative Context**
+| Concept | Similarity | Difference |
+|----------|-------------|-------------|
+| Einstein’s Relativity | Both preserve law across frames. | Operates on space-time, not numerical proportion. |
+| Fractal Geometry | Self-similarity across scales. | Focuses on spatial repetition, not cognitive reference. |
+| Function Composition | Recursive mapping. | Adds semantic layer of reference and perception. |
+
+---
+
+## **Terminology**
+- **Fractional Reference:** The locally normalized frame created by a proportional operation.  
+- **Instance Invariance:** The structural consistency of relations within a new frame.  
+- **Fractional Relativity Principle:** Alternative name emphasizing analogy to physical relativity.
+
+---
+
+## **Summary Formula**
+Transformed System = ∏ fₖ × Original  
+Each fₖ preserves internal law while redefining external reference.
+
+---
+
+## **Author’s Note**
+> This law emerged from intuitive analysis of simple fractional reasoning and was later recognized as a general model of **recursive reference transformation**.  
+> It aims to provide learners and theorists with a bridge between arithmetic reasoning, frame-dependent physics, and layered cognitive computation.
+
+---
+
+## **Citation**
+> Nanda, P. (2025). *The Law of Fractional Reference (Version 1.0).*  
+> GitHub Repository: `prajna-nanda/Law_of_Fractional_Reference`  
+> DOI pending / Timestamped via GitHub commit SHA.
+"""
+
+# Save as Markdown file
+file_path = Path("/mnt/data/The_Law_of_Fractional_Reference.md")
+file_path.write_text(law_content, encoding="utf-8")
+
+file_path
